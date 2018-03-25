@@ -231,7 +231,7 @@ Role para ver se os atributos aumentam. Role duas vezes para **INT** e **SAB**. 
 
 Qualquer item listado na seção de equipamentos e tiver um **Dado de Uso** é considerado um item de consumo limitado. Quando for utilizado, no próximo **Minuto** (turno), seu **Dado de Uso** é rolado. Se o resultado for 1-2 então o dado de uso é rebaixado para o próximo valor na seguinte sequência: **d20 > d12 > d10 > d8 > d6 > d4**. Se você rolar 1 ou 2 em 1d4, o item foi consumido e o personagem não poderá usar novamente. O mesmo é válido para qualquer **Dado de Habilidade**, **Dado de Radiação**, **Dado de Qualidade**, etc.
 
-## Pontos de Armadura
+## Armor points
 
 Armadura fornece proteção reduzindo dano recebido e se divide em 4 tipos: **Leve**, **Média**, **Pesada** e **Tech**. Cada ponto de armadura (PA) reduz o dano por uma quantia limitada. Se um PJ ou monstro usa sua armadura pra absorver todo o dano permitido, estará muito cansado ou ferido para utilizar o equipamento de forma eficaz – a partir daí, recebem todo o dano. Pontos de Armadura são recuperados quando um personagem descansa.
 
@@ -251,39 +251,39 @@ Se um personagem usa uma armadura que não está listada em sua classe, adiciona
 **Inimigos** geralmente têm 1 PA para cada DV acima de 1. Para calcular rapidamente, PA = DV - 1. *Por exemplo, um inimigo de 3 DV tem 2 PA.* Inimigos humanóides também podem portar escudos. (Até no máximo 10 PA)
 \*Leia mais sobre equipamento Tecnológico na seção de Tecnologia.
 
-| Item                        | Custo  | Dado de Uso | Notas                               |
-|:----------------------------|:-------|:----------|:---------------------------------------|
-| Armadura Leve               | 50     | -         | 2 Pontos de Armadura.                  |
-| Armadura Média              | 100    | -         | 4 Pontos de Armadura.                  |
-| Armadura Pesada             | 350    | -         | 6 Pontos de Armadura.                  |
-| Armadura Tecnológica        | *      | -         | *                                      |
-| Escudo Pequeno/Grande       | 50/100 | -         | 2/4 Pontos de Armadura.                |
-| Mochila                     | 5      | -         | +2 Carga extra.                        |
-| Galão de Gasolina           | 25     | d6        | Combustivel para Veículos.             |
-| Ferramentas de Trabalho     | 5      | -         | -                                      |
-| Água Fluorescente           | 10     | d6        | Item Religioso.                        |
-| Pregos Enferrujados         | 1      | -         | -                                      |
-| Lanterna                    | 15     | -         | -                                      |
-| Baterias                    | 10     | d8        | -                                      |
-| Espelho de mão              | 5      | -         | -                                      |
-| Comida Enlatada             | 15     | d8        | -                                      |
-| Comida Fresca               | 5      | d4        | -                                      |
-| Água potável                | 15     | d8        | -                                      |
-| Corda (15 metros)           | 1      | -         | -                                      |
-| Saco Pequeno                | 1      | -         | -                                      |
-| Saco Grande                 | 2      | -         | -                                      |
-| Sucata                      | 10     | -         | Reparar componente.                    |
-| Isqueiro                    | 5      | d6        | -                                      |
-| Tochas (6)                  | 1      | d6        | Cada tocha tem um Dado de uso.         |
-| Birita                      | 10     | d4        | Pode ser usado como Combústivel        |
-| Vinho                       | 5      | -         | -                                      |
-| Ervas sortidas              | 10     | d8        | -                                      |
-| Vara de 3 metros            | 1      | -         | -                                      |
-| Aljava de Flechas / Virotes | 5      | -         | 10 Flechas por Aljava.                 |
+| Item                    | Cost   | Usage die | Notes                       |
+|:------------------------|:-------|:----------|:----------------------------|
+| Armadura Leve           | 50     | -         | 2 Armor points.             |
+| Armadura Média          | 100    | -         | 4 Armor points.             |
+| Armadura Pesada         | 350    | -         | 6 Armor points.             |
+| Armadura Tecnológica    | *      | -         | *                           |
+| Escudo Pequeno/Grande   | 50/100 | -         | 2/4 Armor points.           |
+| Mochila                 | 5      | -         | Carry +2 extra.             |
+| Galão de Gasolina       | 25     | d6        | Fuel for Vehicles.          |
+| Ferramentas de Trabalho | 5      | -         | -                           |
+| Água Fluorescente       | 10     | d6        | Religious item.             |
+| Pregos Enferrujados     | 1      | -         | -                           |
+| Lanterna                | 15     | -         | -                           |
+| Baterias                | 10     | d8        | -                           |
+| Espelho de mão          | 5      | -         | -                           |
+| Comida Enlatada         | 15     | d8        | -                           |
+| Comida Fresca           | 5      | d4        | -                           |
+| Água potável            | 15     | d8        | -                           |
+| Corda (15 metros)       | 1      | -         | -                           |
+| Saco Pequeno            | 1      | -         | -                           |
+| Saco Grande             | 2      | -         | -                           |
+| Sucata                  | 10     | -         | Repair component.           |
+| Isqueiro                | 5      | d6        | -                           |
+| Tochas (6)              | 1      | d6        | Each Torch has a Usage Die. |
+| Booze                   | 10     | d4        | Can be used as fuel.        |
+| Tub Wine                | 5      | -         | -                           |
+| Assorted Herbs          | 10     | d8        | -                           |
+| 10' Pole                | 1      | -         | -                           |
+| Pack of Arrows / Bolts  | 5      | -         | 10 Arrows per quiver.       |
 
 
 
-| Arma       | Custo | Exemplo                                  | Notas                                                                |
+| Weapon        | Cost | Example                                  | Notes                                                                           |
 |:--------------|:-----|:-----------------------------------------|:--------------------------------------------------------------------------------|
 | Light Melee   | 15   | Knife, Shiv, Iron Pipe                   | Close Range.                                                                    |
 | Medium Melee  | 25   | Junk-Sword, Baseball Bat, Machete        | Nearby range.                                                                   |
